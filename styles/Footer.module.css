@@ -1,0 +1,125 @@
+.footer {
+    display: block;
+    background: #eff6f4;
+    position: absolute;
+    height: 510px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+#footer::before {
+    content: '';
+    height: 7px;
+    width: 100%;
+    background-image: url(../public/images/patternfooter.jpeg);
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    z-index: 9;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (min-width: 1250px){
+   .container {
+    max-width: 1200px;
+} 
+}
+.row {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.width25 {
+    float: left;
+    width: 25%;
+}
+.footerTitle {
+    color: #00000e;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0 40px;
+}
+.footerMenu {
+    margin: 0;
+    padding: 0;
+}
+.footerMenu li {
+    list-style: none;
+}
+.container a {
+    font-size: 14px;
+    line-height: 30px;
+}
+.imprintText {
+    font-size: 14px;
+    line-height: 30px;
+}
+.imprintText strong {
+    font-weight: 500;
+}
+.footer-container a {
+    font-size: 14px;
+    line-height: 30px;
+}
+.marginTop40 {
+    margin-top: 40px;
+}
+.socialTitle {
+    color: #00000e;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+}
+.socialLinks {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.socialLinks li {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: -4px;
+}
+.sociallinks li a {
+    width: 18px;
+    height: 18px;
+    display: block;
+    box-sizing: BORDER-BOX;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.socialLinks li.facebook a {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNy45NyIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE3Ljk3IDE4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjMDljNjk2OwogICAgICAgIGZpbGwtcnVsZTogZXZlbm9kZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggaWQ9ImZvb3Rlcl9mYWNlYm9vayIgY2xhc3M9ImNscy0xIiBkPSJNMTA1Ni4wMywzNzU4djE4SDEwNzR2LTE4aC0xNy45N1ptMTEuODksNC45NWgtMS40YTAuNjEsMC42MSwwLDAsMC0uNTYuNXYxLjQ0aDEuOTZjLTAuMDgsMS4xLS4yNCwyLjExLTAuMjQsMi4xMWgtMS43M3Y2LjIzaC0yLjU4di02LjI0aC0xLjI2di0yLjA5aDEuMjZ2LTEuNzJjMC0uMzEtMC4wNy0yLjQxLDIuNjQtMi40MWgxLjkxdjIuMThoMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDU2LjAzIC0zNzU4KSIvPgo8L3N2Zz4K);
+}
+.sociallinks li.instagram a {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjMDljNjk2OwogICAgICAgIGZpbGwtcnVsZTogZXZlbm9kZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggaWQ9ImZvb3Rlcl9pbnN0YWdyYW0iIGNsYXNzPSJjbHMtMSIgZD0iTTEwOTYuMDksMzc2Mi4xM2gtNi4xOGExLjc4NCwxLjc4NCwwLDAsMC0xLjc4LDEuNzh2Ni4xOGExLjc4NCwxLjc4NCwwLDAsMCwxLjc4LDEuNzhoNi4xOGExLjc4NCwxLjc4NCwwLDAsMCwxLjc4LTEuNzh2LTYuMThBMS43ODQsMS43ODQsMCwwLDAsMTA5Ni4wOSwzNzYyLjEzWm0tMy4wOSw4LjA4YTMuMjEsMy4yMSwwLDEsMSwzLjIxLTMuMjFBMy4yMTQsMy4yMTQsMCwwLDEsMTA5MywzNzcwLjIxWm0zLjMxLTUuNzZhMC43NTUsMC43NTUsMCwxLDEsLjc2LTAuNzZBMC43NiwwLjc2LDAsMCwxLDEwOTYuMzEsMzc2NC40NVptLTMuMzEuN2ExLjg1LDEuODUsMCwxLDAsMS44NSwxLjg1QTEuODUyLDEuODUyLDAsMCwwLDEwOTMsMzc2NS4xNVptLTktNy4xNXYxOGgxOHYtMThoLTE4Wm0xNS4yMywxMi4wOWEzLjE0NSwzLjE0NSwwLDAsMS0zLjE0LDMuMTRoLTYuMThhMy4xNDUsMy4xNDUsMCwwLDEtMy4xNC0zLjE0di02LjE4YTMuMTQ1LDMuMTQ1LDAsMCwxLDMuMTQtMy4xNGg2LjE4YTMuMTQ1LDMuMTQ1LDAsMCwxLDMuMTQsMy4xNHY2LjE4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwODQgLTM3NTgpIi8+Cjwvc3ZnPgo=);
+}
+.footerPaymentLogos {
+    padding: 0;
+    margin: 0;
+}
+.footerPaymentLogos li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+.paysera {
+    display: block;
+    /* margin-top: 15px; */
+}
