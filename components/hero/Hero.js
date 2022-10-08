@@ -10,7 +10,7 @@ const Hero = () => {
                     <ul className={`${styles.rslides} ${styles.slidesSlider} `}>
                         <li className={styles.slide}>
                             <a href='/naujienos'>
-                                <img src='../images/hero.png' alt='hero-picture' alt-width="1200" height="540" />
+                                <img src='../images/hero.png' alt='hero picture' alt-width="1200" height="540" />
                             </a>
                         </li>
                     </ul>
