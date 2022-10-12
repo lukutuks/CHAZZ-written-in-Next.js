@@ -1,13 +1,13 @@
 .footer {
     display: block;
     background: #eff6f4;
-    position: absolute;
+    position: relative;
     height: 510px;
     width: 100%;
     bottom: 0;
     left: 0;
 }
-#footer::before {
+.footer::before {
     content: '';
     height: 7px;
     width: 100%;

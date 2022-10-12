@@ -104,12 +104,6 @@
   -webkit-box-shadow: 0 4px 18px 0 rgb(0 0 0 / 8%);
   box-shadow: 0 4px 18px 0 rgb(0 0 0 / 8%);
 }
-
-.row {
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-}
 .NavContainer1000 {
   float: left;
   max-width: 1000px;
@@ -288,15 +282,6 @@ a.locationIcon {
   float: left;
   max-width: 1000px;
   width: 100%;
-}
-.h1 {
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
 }
 .navbar li {
   color: #808080;

@@ -75,36 +75,36 @@ const Footer = () => {
               <div className={styles.imprintText}>
                 <p>
                   <strong>
-                    <a href="tel:+37069575304">
-                      +37069575304
+                    <a href="tel:+37060123456">
+                      +37060123456
                       <br />
                     </a>
                   </strong>
                   <a href="mail:labas@chazzchips.com">
-                    labas@chazzchips.com
+                    email@emailprovider.com
                     <br />
                   </a>
                   Darbo laikas: I-V, 9.00-18-00
                 </p>
                 <p>
                   <b>
-                    Vokės g. 24, Lentvaris,
+                    Adreso g. 1, Apskritis,
                     <br />
                   </b>
-                  LT-25144 Trakų r., Lietuva
+                  LT-12345 Trakų r., Lietuva
                 </p>
                 <p>
                   <b>
-                    Gusania, UAB
+                    COMPANY, UAB
                     <br />
                   </b>
-                  Įm.k.: 304827413
+                  Įm.k.: 123456789
                   <br />
-                  PVM kodas: LT100011592915
+                  PVM kodas: LT100010001000
                   <br />
                   Maisto tvarkymo subjekto
                   <br />
-                  atpažinimo numeris 790000877
+                  atpažinimo numeris 123456789
                 </p>
               </div>
               <div className={styles.marginTop40}>
@@ -153,7 +153,7 @@ const Footer = () => {
         <div className={`${styles.row} ${styles.copyrow}`}>
             <div className={styles.container}>
             <div className={styles.reserved}>
-                        All rights reserved by CHAZZ.LT. Project was built for educational purposes only.
+                        All rights reserved by chazzchips.com. Project was built for educational purposes only.
                 </div>
 
             </div>

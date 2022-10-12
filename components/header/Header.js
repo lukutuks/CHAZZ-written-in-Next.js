@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/Header.module.css";
-import { BsFillQuestionCircleFill, BsFillTelephoneFill } from "react-icons/bs";
-import { HiMail, HiLocationMarker } from "react-icons/hi";
+
+
 const header = () => {
   return (
     <div className={styles.header}>
@@ -9,8 +9,8 @@ const header = () => {
         <div className={styles.container}>
           <div className={styles.headerlineItems}>
             <a className={styles.duk}>DUK</a>
-            <a className={styles.bold}>+370 695 75 304</a>
-            <a className={styles.email}>labas@chazzchips.com</a>
+            <a className={styles.bold}>+370 601 23 456</a>
+            <a className={styles.email}>email@emailprovider.com</a>
             <a className={styles.locations}>Parduotuvės, kuriose rasi CHAZZ</a>
           </div>
         </div>

@@ -26,3 +26,50 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+.container{
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+@media (min-width: 1250px){
+  .container {
+  max-width: 1200px;
+}}
+.row {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.marginTop30 {
+  margin-top: 30px;
+}
+.marginTop50 {
+  margin-top: 50px;
+}
+.alignCenter {
+  text-align: center;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
